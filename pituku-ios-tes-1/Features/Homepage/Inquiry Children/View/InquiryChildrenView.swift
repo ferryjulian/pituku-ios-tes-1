@@ -76,6 +76,10 @@ class InquiryChildrenView: UIView {
         let search = UISearchBar()
         search.searchBarStyle = UISearchBar.Style.minimal
         search.placeholder = "Search waste name or code"
+//        search.scopeButtonTitles = ["test", "test 2"]
+//        search.showsScopeBar = true
+//        search.selectedScopeButtonIndex = 0
+//        search.setShowsScope(true, animated: true)
 
         return search
     }()

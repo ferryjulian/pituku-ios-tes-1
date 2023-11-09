@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         //Open controller when app open first
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            let controller = InquiryChildrenViewController()
+            let controller = TabBarViewController()
             let navigationController = UINavigationController(rootViewController: controller)
             window.rootViewController = navigationController
             self.window = window

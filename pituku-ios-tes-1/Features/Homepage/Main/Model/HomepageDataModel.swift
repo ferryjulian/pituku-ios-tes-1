@@ -15,13 +15,3 @@ struct HomepageDataModel {
     let imgObject: UIImage?
     let imgEllipse: UIImage?
 }
-
-//struct TableDataModel {
-//    let contentB3WasteList: [String]?
-//    let codeB3WasteList: [String]?
-//    
-//    init(contentB3WasteList: [String]) {
-//        self.contentB3WasteList = contentB3WasteList
-//        
-//    }
-//}

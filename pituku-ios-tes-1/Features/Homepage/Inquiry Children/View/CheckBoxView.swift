@@ -22,6 +22,13 @@ class CheckBoxView: UIView {
         
         return img
     }()
+    
+    private lazy var boxView: UIView = {
+        let img = UIView()
+        img.layer.borderWidth = 1
+        
+        return img
+    }()
 
     // MARK: - Implementation
     override init(frame: CGRect) {
@@ -53,13 +60,17 @@ class CheckBoxView: UIView {
 private extension CheckBoxView {
     
     private func setupView() {
+        addSubview(boxView)
         addSubview(checkImageView)
     }
     
     private func setupConstraints() {
-        checkImageView.snp.makeConstraints { make in
-            make.top.bottom.equalToSuperview().inset(16)
-            make.leading.trailing.equalToSuperview().inset(16)
-        }
+        boxView.frame = CGRect(x: 7, y: 7, width: frame.size.width - 14, height: frame.size.height - 14)
+        checkImageView.frame = bounds
+
+//        checkImageView.snp.makeConstraints { make in
+//            make.top.bottom.equalToSuperview().inset(16)
+//            make.leading.trailing.equalToSuperview().inset(16)
+//        }
     }
 }

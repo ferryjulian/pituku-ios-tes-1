@@ -10,9 +10,14 @@ import SnapKit
 
 class InquiryChildrenViewController: UIViewController {
     
+    //List name
+    private lazy var nameList = ["Tetrakloroetilen", "Ksilena", "Amonium hidroksida", "Tetrakloroetilen", "Aseton", "Metilenklorida", "Etil asetat", "Asam hidroklorat", "Asam nitrat", "Karbon tetraklorida", "Kalium hidroksida", "Kontaminasi 83", "Asam belum terkodifikasi", "Metanol", "Karbon aktif" ]
+    
+    //List codeID
+    private lazy var codeList = ["A101a", "A101b", "A101c", "A102a", "A102b", "A103a", "A103b", "A103c", "A105c", "A106a", "A107c", "A108d", "A109d", "A110b", "A111d" ]
+    
     // MARK: - Properties
     private lazy var thisView: InquiryChildrenView = InquiryChildrenView()
-    private lazy var categoryList = ["Tetrakloroetilen", "Ksilena", "Amonium hidroksida", "Tetrakloroetilen", "Aseton", "Metilenklorida", "Etil asetat", "Asam hidroklorat", "Asam nitrat", "Karbon tetraklorida", "Kalium hidroksida", "Kontaminasi 83", "Asam belum terkodifikasi", "Metanol", "Karbon aktif" ]
     
     private lazy var dataTable: UITableView = {
         let tabel = UITableView()
@@ -56,19 +61,22 @@ class InquiryChildrenViewController: UIViewController {
         dataTable.dataSource = self
         dataTable.delegate = self
         dataTable.reloadData()
-        dataTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        dataTable.register(ContentTableViewCell.self, forCellReuseIdentifier: ContentTableViewCell.identifier)
     }
 }
 
 // MARK: - Functions TableView
 extension InquiryChildrenViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return categoryList.count
+        return nameList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = categoryList[indexPath.row]
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: ContentTableViewCell.identifier, for: indexPath) as? ContentTableViewCell else {
+            return UITableViewCell()
+        }
+//        cell.textLabel?.text = categoryList[indexPath.row]
+        cell.configure(text: nameList[indexPath.row], codeID: codeList[indexPath.row])
         return cell
     }
     
