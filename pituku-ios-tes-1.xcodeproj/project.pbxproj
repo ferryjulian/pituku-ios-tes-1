@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3CB2DA2E0973D4AF53E584 /* Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463196FE989C656869A58C6C /* Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework */; };
+		4207E5F4DC27AD7E159A05D8 /* Pods_pituku_ios_tes_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1C5053C8DF130B0D07D01C /* Pods_pituku_ios_tes_1.framework */; };
+		9891A9272AFADB1900AF8901 /* InquiryParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891A9262AFADB1900AF8901 /* InquiryParentViewController.swift */; };
+		9891A92B2AFADB7C00AF8901 /* InquiryParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891A92A2AFADB7C00AF8901 /* InquiryParentView.swift */; };
+		9893513D2AF8C2EE004C1551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893513C2AF8C2EE004C1551 /* AppDelegate.swift */; };
+		9893513F2AF8C2EE004C1551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893513E2AF8C2EE004C1551 /* SceneDelegate.swift */; };
+		989351462AF8C2EF004C1551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989351452AF8C2EF004C1551 /* Assets.xcassets */; };
+		989351492AF8C2EF004C1551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989351472AF8C2EF004C1551 /* LaunchScreen.storyboard */; };
+		989351542AF8C2EF004C1551 /* pituku_ios_tes_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989351532AF8C2EF004C1551 /* pituku_ios_tes_1Tests.swift */; };
+		9893515E2AF8C2F0004C1551 /* pituku_ios_tes_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893515D2AF8C2F0004C1551 /* pituku_ios_tes_1UITests.swift */; };
+		989351602AF8C2F0004C1551 /* pituku_ios_tes_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893515F2AF8C2F0004C1551 /* pituku_ios_tes_1UITestsLaunchTests.swift */; };
+		989351712AF8F2D1004C1551 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989351702AF8F2D1004C1551 /* UIColor+Extensions.swift */; };
+		989351752AF8F652004C1551 /* HomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989351742AF8F652004C1551 /* HomepageView.swift */; };
+		989351772AF8F672004C1551 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989351762AF8F672004C1551 /* HomepageViewController.swift */; };
+		989351792AF8F79C004C1551 /* HomepageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989351782AF8F79C004C1551 /* HomepageDataModel.swift */; };
+		9893517B2AF9018F004C1551 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9893517A2AF9018F004C1551 /* UIView+Extensions.swift */; };
+		98B6EC542AF95CA6005CE64B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC472AF95CA6005CE64B /* Roboto-Medium.ttf */; };
+		98B6EC552AF95CA6005CE64B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC482AF95CA6005CE64B /* Roboto-Light.ttf */; };
+		98B6EC562AF95CA6005CE64B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC492AF95CA6005CE64B /* Roboto-Regular.ttf */; };
+		98B6EC572AF95CA6005CE64B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4A2AF95CA6005CE64B /* Roboto-MediumItalic.ttf */; };
+		98B6EC582AF95CA6005CE64B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4B2AF95CA6005CE64B /* Roboto-ThinItalic.ttf */; };
+		98B6EC592AF95CA6005CE64B /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4C2AF95CA6005CE64B /* Roboto-BoldItalic.ttf */; };
+		98B6EC5A2AF95CA6005CE64B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4D2AF95CA6005CE64B /* Roboto-LightItalic.ttf */; };
+		98B6EC5B2AF95CA6005CE64B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4E2AF95CA6005CE64B /* Roboto-Italic.ttf */; };
+		98B6EC5C2AF95CA6005CE64B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC4F2AF95CA6005CE64B /* LICENSE.txt */; };
+		98B6EC5D2AF95CA6005CE64B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC502AF95CA6005CE64B /* Roboto-BlackItalic.ttf */; };
+		98B6EC5E2AF95CA6005CE64B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC512AF95CA6005CE64B /* Roboto-Bold.ttf */; };
+		98B6EC5F2AF95CA6005CE64B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC522AF95CA6005CE64B /* Roboto-Thin.ttf */; };
+		98B6EC602AF95CA6005CE64B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98B6EC532AF95CA6005CE64B /* Roboto-Black.ttf */; };
+		98B6EC632AFA2163005CE64B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6EC622AFA2163005CE64B /* TabBarViewController.swift */; };
+		98B6EC682AFA22F2005CE64B /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6EC672AFA22F2005CE64B /* WalletViewController.swift */; };
+		98B6EC6A2AFA2329005CE64B /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6EC692AFA2329005CE64B /* ReportViewController.swift */; };
+		98B6EC6C2AFA2349005CE64B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6EC6B2AFA2349005CE64B /* ProfileViewController.swift */; };
+		98B6EC722AFA4A20005CE64B /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B6EC712AFA4A20005CE64B /* AdsCollectionViewCell.swift */; };
+		98DE5A492AFBC7D100E59992 /* InquiryChildrenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE5A482AFBC7D100E59992 /* InquiryChildrenViewController.swift */; };
+		98DE5A4B2AFBC7F500E59992 /* InquiryChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE5A4A2AFBC7F500E59992 /* InquiryChildrenView.swift */; };
+		98DE5A512AFC221000E59992 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE5A502AFC221000E59992 /* ContentTableViewCell.swift */; };
+		98DE5A542AFC226900E59992 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DE5A532AFC226900E59992 /* CheckBoxView.swift */; };
+		AE0ADF053B0C39D9E94E600B /* Pods_pituku_ios_tes_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C136B9A0104547D6026B9DA1 /* Pods_pituku_ios_tes_1Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		989351502AF8C2EF004C1551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989351312AF8C2EE004C1551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989351382AF8C2EE004C1551;
+			remoteInfo = "pituku-ios-tes-1";
+		};
+		9893515A2AF8C2EF004C1551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989351312AF8C2EE004C1551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989351382AF8C2EE004C1551;
+			remoteInfo = "pituku-ios-tes-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DEB8F10ADDE84C3E7C45202 /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A6802C64F6ACFD26BFD345D /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		34DBDF910CC140AD34F64243 /* Pods-pituku-ios-tes-1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1Tests.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1Tests/Pods-pituku-ios-tes-1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		463196FE989C656869A58C6C /* Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7AE8E5A116BAAED946FAB6 /* Pods-pituku-ios-tes-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1.release.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1/Pods-pituku-ios-tes-1.release.xcconfig"; sourceTree = "<group>"; };
+		9891A9262AFADB1900AF8901 /* InquiryParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryParentViewController.swift; sourceTree = "<group>"; };
+		9891A92A2AFADB7C00AF8901 /* InquiryParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryParentView.swift; sourceTree = "<group>"; };
+		989351392AF8C2EE004C1551 /* pituku-ios-tes-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pituku-ios-tes-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9893513C2AF8C2EE004C1551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9893513E2AF8C2EE004C1551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		989351452AF8C2EF004C1551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		989351482AF8C2EF004C1551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9893514A2AF8C2EF004C1551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9893514F2AF8C2EF004C1551 /* pituku-ios-tes-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pituku-ios-tes-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989351532AF8C2EF004C1551 /* pituku_ios_tes_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_1Tests.swift; sourceTree = "<group>"; };
+		989351592AF8C2EF004C1551 /* pituku-ios-tes-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pituku-ios-tes-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9893515D2AF8C2F0004C1551 /* pituku_ios_tes_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_1UITests.swift; sourceTree = "<group>"; };
+		9893515F2AF8C2F0004C1551 /* pituku_ios_tes_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pituku_ios_tes_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		989351702AF8F2D1004C1551 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		989351742AF8F652004C1551 /* HomepageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageView.swift; sourceTree = "<group>"; };
+		989351762AF8F672004C1551 /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		989351782AF8F79C004C1551 /* HomepageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageDataModel.swift; sourceTree = "<group>"; };
+		9893517A2AF9018F004C1551 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		98B6EC472AF95CA6005CE64B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		98B6EC482AF95CA6005CE64B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		98B6EC492AF95CA6005CE64B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		98B6EC4A2AF95CA6005CE64B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		98B6EC4B2AF95CA6005CE64B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		98B6EC4C2AF95CA6005CE64B /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		98B6EC4D2AF95CA6005CE64B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		98B6EC4E2AF95CA6005CE64B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		98B6EC4F2AF95CA6005CE64B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		98B6EC502AF95CA6005CE64B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		98B6EC512AF95CA6005CE64B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		98B6EC522AF95CA6005CE64B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		98B6EC532AF95CA6005CE64B /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		98B6EC622AFA2163005CE64B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		98B6EC672AFA22F2005CE64B /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		98B6EC692AFA2329005CE64B /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		98B6EC6B2AFA2349005CE64B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		98B6EC712AFA4A20005CE64B /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		98DE5A482AFBC7D100E59992 /* InquiryChildrenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryChildrenViewController.swift; sourceTree = "<group>"; };
+		98DE5A4A2AFBC7F500E59992 /* InquiryChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquiryChildrenView.swift; sourceTree = "<group>"; };
+		98DE5A502AFC221000E59992 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		98DE5A532AFC226900E59992 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		C136B9A0104547D6026B9DA1 /* Pods_pituku_ios_tes_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD56A1E6D87D20F83B6B3E16 /* Pods-pituku-ios-tes-1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1Tests.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1Tests/Pods-pituku-ios-tes-1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E232506E3DD958BBA2D0A4FD /* Pods-pituku-ios-tes-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pituku-ios-tes-1.debug.xcconfig"; path = "Target Support Files/Pods-pituku-ios-tes-1/Pods-pituku-ios-tes-1.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1C5053C8DF130B0D07D01C /* Pods_pituku_ios_tes_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pituku_ios_tes_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989351362AF8C2EE004C1551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4207E5F4DC27AD7E159A05D8 /* Pods_pituku_ios_tes_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9893514C2AF8C2EF004C1551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0ADF053B0C39D9E94E600B /* Pods_pituku_ios_tes_1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989351562AF8C2EF004C1551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3CB2DA2E0973D4AF53E584 /* Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AB18CDC20F7C2EC88AC090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E232506E3DD958BBA2D0A4FD /* Pods-pituku-ios-tes-1.debug.xcconfig */,
+				4F7AE8E5A116BAAED946FAB6 /* Pods-pituku-ios-tes-1.release.xcconfig */,
+				0DEB8F10ADDE84C3E7C45202 /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.debug.xcconfig */,
+				1A6802C64F6ACFD26BFD345D /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.release.xcconfig */,
+				CD56A1E6D87D20F83B6B3E16 /* Pods-pituku-ios-tes-1Tests.debug.xcconfig */,
+				34DBDF910CC140AD34F64243 /* Pods-pituku-ios-tes-1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9891A9232AFADA6200AF8901 /* Inquiry Parent */ = {
+			isa = PBXGroup;
+			children = (
+				9891A9292AFADB4F00AF8901 /* View */,
+				9891A9282AFADB4000AF8901 /* Controller */,
+			);
+			path = "Inquiry Parent";
+			sourceTree = "<group>";
+		};
+		9891A9242AFADA8900AF8901 /* Inquiry Children */ = {
+			isa = PBXGroup;
+			children = (
+				98DE5A472AFBC20D00E59992 /* View */,
+				98DE5A462AFBC20000E59992 /* Controller */,
+			);
+			path = "Inquiry Children";
+			sourceTree = "<group>";
+		};
+		9891A9252AFADAA200AF8901 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC6D2AFA3F53005CE64B /* Model */,
+				989351722AF8F52C004C1551 /* View */,
+				989351732AF8F546004C1551 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9891A9282AFADB4000AF8901 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9891A9262AFADB1900AF8901 /* InquiryParentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9891A9292AFADB4F00AF8901 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9891A92A2AFADB7C00AF8901 /* InquiryParentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		989351302AF8C2EE004C1551 = {
+			isa = PBXGroup;
+			children = (
+				9893513B2AF8C2EE004C1551 /* pituku-ios-tes-1 */,
+				989351522AF8C2EF004C1551 /* pituku-ios-tes-1Tests */,
+				9893515C2AF8C2EF004C1551 /* pituku-ios-tes-1UITests */,
+				9893513A2AF8C2EE004C1551 /* Products */,
+				39AB18CDC20F7C2EC88AC090 /* Pods */,
+				AB1591C941A9964ADF20ACB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9893513A2AF8C2EE004C1551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989351392AF8C2EE004C1551 /* pituku-ios-tes-1.app */,
+				9893514F2AF8C2EF004C1551 /* pituku-ios-tes-1Tests.xctest */,
+				989351592AF8C2EF004C1551 /* pituku-ios-tes-1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9893513B2AF8C2EE004C1551 /* pituku-ios-tes-1 */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC442AF95C76005CE64B /* Supporting */,
+				9893516E2AF8F236004C1551 /* Extensions */,
+				9893516D2AF8F222004C1551 /* Features */,
+				9893513C2AF8C2EE004C1551 /* AppDelegate.swift */,
+				9893513E2AF8C2EE004C1551 /* SceneDelegate.swift */,
+				989351452AF8C2EF004C1551 /* Assets.xcassets */,
+				989351472AF8C2EF004C1551 /* LaunchScreen.storyboard */,
+				9893514A2AF8C2EF004C1551 /* Info.plist */,
+			);
+			path = "pituku-ios-tes-1";
+			sourceTree = "<group>";
+		};
+		989351522AF8C2EF004C1551 /* pituku-ios-tes-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				989351532AF8C2EF004C1551 /* pituku_ios_tes_1Tests.swift */,
+			);
+			path = "pituku-ios-tes-1Tests";
+			sourceTree = "<group>";
+		};
+		9893515C2AF8C2EF004C1551 /* pituku-ios-tes-1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9893515D2AF8C2F0004C1551 /* pituku_ios_tes_1UITests.swift */,
+				9893515F2AF8C2F0004C1551 /* pituku_ios_tes_1UITestsLaunchTests.swift */,
+			);
+			path = "pituku-ios-tes-1UITests";
+			sourceTree = "<group>";
+		};
+		9893516C2AF8C37A004C1551 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				9891A9252AFADAA200AF8901 /* Main */,
+				9891A9232AFADA6200AF8901 /* Inquiry Parent */,
+				9891A9242AFADA8900AF8901 /* Inquiry Children */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		9893516D2AF8F222004C1551 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC612AFA2120005CE64B /* TabBar */,
+				9893516C2AF8C37A004C1551 /* Homepage */,
+				98B6EC642AFA225D005CE64B /* Wallet Page */,
+				98B6EC652AFA2281005CE64B /* Report Page */,
+				98B6EC662AFA2292005CE64B /* Profile Page */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9893516E2AF8F236004C1551 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				989351702AF8F2D1004C1551 /* UIColor+Extensions.swift */,
+				9893517A2AF9018F004C1551 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		989351722AF8F52C004C1551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC6E2AFA4622005CE64B /* Cell */,
+				989351742AF8F652004C1551 /* HomepageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		989351732AF8F546004C1551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				989351762AF8F672004C1551 /* HomepageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98B6EC442AF95C76005CE64B /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC452AF95C89005CE64B /* Fonts */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		98B6EC452AF95C89005CE64B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC462AF95CA6005CE64B /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		98B6EC462AF95CA6005CE64B /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC472AF95CA6005CE64B /* Roboto-Medium.ttf */,
+				98B6EC482AF95CA6005CE64B /* Roboto-Light.ttf */,
+				98B6EC492AF95CA6005CE64B /* Roboto-Regular.ttf */,
+				98B6EC4A2AF95CA6005CE64B /* Roboto-MediumItalic.ttf */,
+				98B6EC4B2AF95CA6005CE64B /* Roboto-ThinItalic.ttf */,
+				98B6EC4C2AF95CA6005CE64B /* Roboto-BoldItalic.ttf */,
+				98B6EC4D2AF95CA6005CE64B /* Roboto-LightItalic.ttf */,
+				98B6EC4E2AF95CA6005CE64B /* Roboto-Italic.ttf */,
+				98B6EC4F2AF95CA6005CE64B /* LICENSE.txt */,
+				98B6EC502AF95CA6005CE64B /* Roboto-BlackItalic.ttf */,
+				98B6EC512AF95CA6005CE64B /* Roboto-Bold.ttf */,
+				98B6EC522AF95CA6005CE64B /* Roboto-Thin.ttf */,
+				98B6EC532AF95CA6005CE64B /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		98B6EC612AFA2120005CE64B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC622AFA2163005CE64B /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		98B6EC642AFA225D005CE64B /* Wallet Page */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC672AFA22F2005CE64B /* WalletViewController.swift */,
+			);
+			path = "Wallet Page";
+			sourceTree = "<group>";
+		};
+		98B6EC652AFA2281005CE64B /* Report Page */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC692AFA2329005CE64B /* ReportViewController.swift */,
+			);
+			path = "Report Page";
+			sourceTree = "<group>";
+		};
+		98B6EC662AFA2292005CE64B /* Profile Page */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC6B2AFA2349005CE64B /* ProfileViewController.swift */,
+			);
+			path = "Profile Page";
+			sourceTree = "<group>";
+		};
+		98B6EC6D2AFA3F53005CE64B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				989351782AF8F79C004C1551 /* HomepageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98B6EC6E2AFA4622005CE64B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				98B6EC712AFA4A20005CE64B /* AdsCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		98DE5A462AFBC20000E59992 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98DE5A482AFBC7D100E59992 /* InquiryChildrenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98DE5A472AFBC20D00E59992 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98DE5A522AFC223B00E59992 /* Cell */,
+				98DE5A4A2AFBC7F500E59992 /* InquiryChildrenView.swift */,
+				98DE5A532AFC226900E59992 /* CheckBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98DE5A522AFC223B00E59992 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				98DE5A502AFC221000E59992 /* ContentTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AB1591C941A9964ADF20ACB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB1C5053C8DF130B0D07D01C /* Pods_pituku_ios_tes_1.framework */,
+				463196FE989C656869A58C6C /* Pods_pituku_ios_tes_1_pituku_ios_tes_1UITests.framework */,
+				C136B9A0104547D6026B9DA1 /* Pods_pituku_ios_tes_1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989351382AF8C2EE004C1551 /* pituku-ios-tes-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989351632AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1" */;
+			buildPhases = (
+				35FD4B1568D113817008E2BC /* [CP] Check Pods Manifest.lock */,
+				989351352AF8C2EE004C1551 /* Sources */,
+				989351362AF8C2EE004C1551 /* Frameworks */,
+				989351372AF8C2EE004C1551 /* Resources */,
+				11F9602CA126A4532E59F263 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pituku-ios-tes-1";
+			productName = "pituku-ios-tes-1";
+			productReference = 989351392AF8C2EE004C1551 /* pituku-ios-tes-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9893514E2AF8C2EF004C1551 /* pituku-ios-tes-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989351662AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1Tests" */;
+			buildPhases = (
+				32B9910E5EAC24A0199BE4CA /* [CP] Check Pods Manifest.lock */,
+				9893514B2AF8C2EF004C1551 /* Sources */,
+				9893514C2AF8C2EF004C1551 /* Frameworks */,
+				9893514D2AF8C2EF004C1551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989351512AF8C2EF004C1551 /* PBXTargetDependency */,
+			);
+			name = "pituku-ios-tes-1Tests";
+			productName = "pituku-ios-tes-1Tests";
+			productReference = 9893514F2AF8C2EF004C1551 /* pituku-ios-tes-1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		989351582AF8C2EF004C1551 /* pituku-ios-tes-1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989351692AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1UITests" */;
+			buildPhases = (
+				675ADA7B48B906C2BF762F1F /* [CP] Check Pods Manifest.lock */,
+				989351552AF8C2EF004C1551 /* Sources */,
+				989351562AF8C2EF004C1551 /* Frameworks */,
+				989351572AF8C2EF004C1551 /* Resources */,
+				458E19664BCB6AF968910D59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9893515B2AF8C2EF004C1551 /* PBXTargetDependency */,
+			);
+			name = "pituku-ios-tes-1UITests";
+			productName = "pituku-ios-tes-1UITests";
+			productReference = 989351592AF8C2EF004C1551 /* pituku-ios-tes-1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989351312AF8C2EE004C1551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					989351382AF8C2EE004C1551 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9893514E2AF8C2EF004C1551 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 989351382AF8C2EE004C1551;
+					};
+					989351582AF8C2EF004C1551 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 989351382AF8C2EE004C1551;
+					};
+				};
+			};
+			buildConfigurationList = 989351342AF8C2EE004C1551 /* Build configuration list for PBXProject "pituku-ios-tes-1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989351302AF8C2EE004C1551;
+			productRefGroup = 9893513A2AF8C2EE004C1551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989351382AF8C2EE004C1551 /* pituku-ios-tes-1 */,
+				9893514E2AF8C2EF004C1551 /* pituku-ios-tes-1Tests */,
+				989351582AF8C2EF004C1551 /* pituku-ios-tes-1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989351372AF8C2EE004C1551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B6EC5F2AF95CA6005CE64B /* Roboto-Thin.ttf in Resources */,
+				98B6EC5C2AF95CA6005CE64B /* LICENSE.txt in Resources */,
+				98B6EC602AF95CA6005CE64B /* Roboto-Black.ttf in Resources */,
+				98B6EC5E2AF95CA6005CE64B /* Roboto-Bold.ttf in Resources */,
+				989351492AF8C2EF004C1551 /* LaunchScreen.storyboard in Resources */,
+				989351462AF8C2EF004C1551 /* Assets.xcassets in Resources */,
+				98B6EC592AF95CA6005CE64B /* Roboto-BoldItalic.ttf in Resources */,
+				98B6EC562AF95CA6005CE64B /* Roboto-Regular.ttf in Resources */,
+				98B6EC582AF95CA6005CE64B /* Roboto-ThinItalic.ttf in Resources */,
+				98B6EC5A2AF95CA6005CE64B /* Roboto-LightItalic.ttf in Resources */,
+				98B6EC5D2AF95CA6005CE64B /* Roboto-BlackItalic.ttf in Resources */,
+				98B6EC552AF95CA6005CE64B /* Roboto-Light.ttf in Resources */,
+				98B6EC5B2AF95CA6005CE64B /* Roboto-Italic.ttf in Resources */,
+				98B6EC572AF95CA6005CE64B /* Roboto-MediumItalic.ttf in Resources */,
+				98B6EC542AF95CA6005CE64B /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9893514D2AF8C2EF004C1551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989351572AF8C2EF004C1551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F9602CA126A4532E59F263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1/Pods-pituku-ios-tes-1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1/Pods-pituku-ios-tes-1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1/Pods-pituku-ios-tes-1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B9910E5EAC24A0199BE4CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35FD4B1568D113817008E2BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		458E19664BCB6AF968910D59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675ADA7B48B906C2BF762F1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989351352AF8C2EE004C1551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B6EC632AFA2163005CE64B /* TabBarViewController.swift in Sources */,
+				9893513D2AF8C2EE004C1551 /* AppDelegate.swift in Sources */,
+				989351792AF8F79C004C1551 /* HomepageDataModel.swift in Sources */,
+				989351772AF8F672004C1551 /* HomepageViewController.swift in Sources */,
+				989351752AF8F652004C1551 /* HomepageView.swift in Sources */,
+				98B6EC722AFA4A20005CE64B /* AdsCollectionViewCell.swift in Sources */,
+				98DE5A512AFC221000E59992 /* ContentTableViewCell.swift in Sources */,
+				98B6EC682AFA22F2005CE64B /* WalletViewController.swift in Sources */,
+				9891A92B2AFADB7C00AF8901 /* InquiryParentView.swift in Sources */,
+				98B6EC6C2AFA2349005CE64B /* ProfileViewController.swift in Sources */,
+				98DE5A4B2AFBC7F500E59992 /* InquiryChildrenView.swift in Sources */,
+				9893513F2AF8C2EE004C1551 /* SceneDelegate.swift in Sources */,
+				9893517B2AF9018F004C1551 /* UIView+Extensions.swift in Sources */,
+				98DE5A542AFC226900E59992 /* CheckBoxView.swift in Sources */,
+				9891A9272AFADB1900AF8901 /* InquiryParentViewController.swift in Sources */,
+				989351712AF8F2D1004C1551 /* UIColor+Extensions.swift in Sources */,
+				98DE5A492AFBC7D100E59992 /* InquiryChildrenViewController.swift in Sources */,
+				98B6EC6A2AFA2329005CE64B /* ReportViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9893514B2AF8C2EF004C1551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989351542AF8C2EF004C1551 /* pituku_ios_tes_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989351552AF8C2EF004C1551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9893515E2AF8C2F0004C1551 /* pituku_ios_tes_1UITests.swift in Sources */,
+				989351602AF8C2F0004C1551 /* pituku_ios_tes_1UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		989351512AF8C2EF004C1551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 989351382AF8C2EE004C1551 /* pituku-ios-tes-1 */;
+			targetProxy = 989351502AF8C2EF004C1551 /* PBXContainerItemProxy */;
+		};
+		9893515B2AF8C2EF004C1551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 989351382AF8C2EE004C1551 /* pituku-ios-tes-1 */;
+			targetProxy = 9893515A2AF8C2EF004C1551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		989351472AF8C2EF004C1551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989351482AF8C2EF004C1551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989351612AF8C2F0004C1551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		989351622AF8C2F0004C1551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989351642AF8C2F0004C1551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E232506E3DD958BBA2D0A4FD /* Pods-pituku-ios-tes-1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pituku-ios-tes-1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989351652AF8C2F0004C1551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7AE8E5A116BAAED946FAB6 /* Pods-pituku-ios-tes-1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pituku-ios-tes-1/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		989351672AF8C2F0004C1551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD56A1E6D87D20F83B6B3E16 /* Pods-pituku-ios-tes-1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pituku-ios-tes-1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pituku-ios-tes-1";
+			};
+			name = Debug;
+		};
+		989351682AF8C2F0004C1551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DBDF910CC140AD34F64243 /* Pods-pituku-ios-tes-1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pituku-ios-tes-1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pituku-ios-tes-1";
+			};
+			name = Release;
+		};
+		9893516A2AF8C2F0004C1551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEB8F10ADDE84C3E7C45202 /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pituku-ios-tes-1";
+			};
+			name = Debug;
+		};
+		9893516B2AF8C2F0004C1551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6802C64F6ACFD26BFD345D /* Pods-pituku-ios-tes-1-pituku-ios-tes-1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497V89NCL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "testcase.pituku-ios-tes-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pituku-ios-tes-1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989351342AF8C2EE004C1551 /* Build configuration list for PBXProject "pituku-ios-tes-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989351612AF8C2F0004C1551 /* Debug */,
+				989351622AF8C2F0004C1551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989351632AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989351642AF8C2F0004C1551 /* Debug */,
+				989351652AF8C2F0004C1551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989351662AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989351672AF8C2F0004C1551 /* Debug */,
+				989351682AF8C2F0004C1551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989351692AF8C2F0004C1551 /* Build configuration list for PBXNativeTarget "pituku-ios-tes-1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9893516A2AF8C2F0004C1551 /* Debug */,
+				9893516B2AF8C2F0004C1551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 989351312AF8C2EE004C1551 /* Project object */;
+}
